@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+
+body
+{
+
+  box-sizing: border-box;
+  background-color:#ffffff;
+
+}
+.pockemoncontainer
+{
+
+  display:flex;
+flex-direction: column;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Imgstyle
+{
+  width:280px;
+  /* background-color:#161b22; */
+
+  padding:40px;
+  border-radius:10px;
+  margin-top:20px;
+cursor:pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+.mycontainer
+{
+  
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  font-family: 'Roboto Mono', monospace;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  color:black;
+  /* border:2px solid red; */
+  
+}
+@media only screen and (max-width: 800px) {
+  .mycontainer
+  {
+    justify-content:center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pocketype
+{
+  display:flex;
+  justify-content: flex-start;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.pocketype-text
+{
+  
+  padding-top:5px;
+  padding-bottom: 5px;
+display:flex;
+justify-content: center;
+align-items: center;
+padding-right: 10px;
+padding-left: 10px;
+/* background-color:rgb(236, 236, 236); */
+margin-right: 10px;
+border-radius: 5px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pockname {
+color:rgb(0, 0, 0);
+font-size: 20px;
+
+  
+}
+.pockid{
+
+  color:#a5a5a5;
+
+}
+.myinput{
+  font-weight: bold;
+}
+
+.searchdiv
+
+{
+/* display:flex;
+justify-content:center;
+width:50%;
+align-items:center; */
+padding-left:50px;
+padding-right:50px;
+padding-top:50px;
+padding-bottom: 50px;
+width:100%;
+font-weight: bold;
+font-size: 40px;
+/* border:1px solid blue; */
 }

@@ -1,0 +1,164 @@
+*{
+
+    box-sizing: border-box;
+}
+
+.MyPockemonContainer {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+  align-items: center;
+
+  font-family: "Roboto Mono", monospace;
+  padding-top: 30px;
+  color:black;
+
+
+
+  /* border:2px solid white; */
+}
+.MyPockemonDetailsandImg {
+  /* border: 2px solid white; */
+  display: flex;
+flex-wrap: wrap;
+  flex-direction: row;
+justify-content:space-around;
+box-sizing: border-box;
+/* padding:30px; */
+
+
+  margin: 10px;
+}
+
+
+.MyPockemonImg {
+  /* background-color:#161B22; */
+width:400px;
+height:400px;
+/* padding:10px; */
+
+
+}
+
+.MyPockemonImgDiv {
+    /* border: 1px solid #161b22; */
+  /* border: 2px solid white; */
+  /* background-color:#000911; */
+  padding:10px;
+  width:20%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:fit-content;
+  border-radius: 15px;
+ 
+}
+.MyPockemonDetails {
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+  width:70%;
+
+
+  border-radius: 15px;
+  /* border: 1px solid #161b22; */
+  padding: 15px;
+  /* border: 2px solid white; */
+}
+
+@media only screen and (max-width: 800px) {
+
+    .MyPockemonDetailsandImg
+    {
+        padding:0px;
+        margin:0px;
+        overflow:hiddem;
+        border:hidden;
+       
+ 
+    }
+    .MyPockemonDetails {
+        width:100%;
+        border:hidden;
+    }
+    .MyPockemonImgDiv
+    {
+        width:100%;
+        border:hidden;
+    }
+    .MyPockemonImg {
+        /* background-color:#161B22; */
+      width:200px;
+      height:200px;
+      border:hidden;
+      
+      
+      }
+  }
+
+.MyPockemonid {
+  color: #f0f0f0;
+  font-size: 20px;
+  background-color: #11151a;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.MyPockemontype-text-div
+{
+    display: flex;
+    flex-direction: column;
+
+    /* width: 30%; */
+        /* border:2px solid blue; */
+ 
+        padding-right: 60px;
+}
+.MyPockemonTypeDiv
+{
+    display:flex;
+    flex-direction:row;
+    /* border:1px solid green; */
+    flex-wrap: wrap;
+    
+}
+.MyPockemontype-text
+{
+  
+  padding-top:5px;
+  padding-bottom: 5px;
+text-align: center;
+padding-right: 10px;
+padding-left: 10px;
+/* 
+border:2px solid rgb(0, 255, 13); */
+
+/* background-color:rgb(236, 236, 236); */
+margin-right: 10px;
+border-radius: 5px;
+
+
+}
+
+.MyPockemonTypeandSpecies{
+
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+
+
+}
+
+.MyPockemonSpeciesType
+{
+    /* border:2px solid rgb(216, 37, 156); */
+
+    padding-right: 30px;
+    color:black;
+    
+
+}
